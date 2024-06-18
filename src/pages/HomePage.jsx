@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export default function Home() {
     return(
         <div className="h-dvh p-[20px] bg-[#232323] text-white">
-            <h1 className="text-5xl mb-[20px]">Homepage</h1>
+            <h1 className="text-5xl mb-[20px] text-red-A200">Homepage</h1>
             <p className="text-lg mb-[30px]">
                 <a href="https://www.dhwise.com" className="text-[#87CEFA] no-underline">
                     Dhwise

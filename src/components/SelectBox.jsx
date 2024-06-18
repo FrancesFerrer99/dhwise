@@ -1,5 +1,6 @@
 import Select from "react-select"
 import PropTypes from "prop-types"
+import React from "react"
 
 const shapes = {
     round: "rounded-lg"

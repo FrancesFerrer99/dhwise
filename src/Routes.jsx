@@ -24,13 +24,12 @@ import StoriesPage from "./pages/StoriesPage"
 import UserProfilePage from "./pages/UserProfilePage"
 import VideoChatPage from "./pages/VideoChatPage"
 import VideoFullScreenPage from "./pages/VideoFullScreenPage"
-import Home from "./pages/HomePage"
 
 export default function Routes(){
     let element = useRoutes(
         [
             {
-                path: "dhwise dashboard", element: <HomePage />
+                path: "dhwise-dashboard", element: <HomePage />
             },
             {
                 path: "*", element: <NotFoundPage />
